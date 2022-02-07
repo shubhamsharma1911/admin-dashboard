@@ -1,123 +1,194 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Login | ICQ Bot</title>
-        <link href="assets/vendor/fontawesome/css/fontawesome.min.css" rel="stylesheet">
-        <link href="assets/vendor/fontawesome/css/solid.min.css" rel="stylesheet">
-        <link href="assets/vendor/fontawesome/css/brands.min.css" rel="stylesheet">
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/master.css" rel="stylesheet">
-        <link href="assets/vendor/flagiconcss/css/flag-icon.min.css" rel="stylesheet">
-    </head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Login | ICQ Bot</title>
+    <link
+      href="assets/vendor/fontawesome/css/fontawesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/fontawesome/css/solid.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/fontawesome/css/brands.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/master.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/flagiconcss/css/flag-icon.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      #login:hover {
+        color: blue;
+      }
+      #hover:hover {
+        background-color: #0d6efd;
+        color: white;
+      }
+      #hover1:hover {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
     <div class="wrapper">
-        <nav id="sidebar" class="active">
-            <div class="sidebar-header">
-                <h3 class="app-logo" style="color: rgb(85, 85, 87);padding:4px;padding-left: 6px;">ICQ Bot </h3>
-            </div>
-            <ul class="list-unstyled components text-secondary">
-                <li>
-                    <a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a>
-                </li>
-                <li>
-                    <a href="#uielementsmenu" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle no-caret-down"><i class="fas fa-layer-group"></i> Schedule Message</a>
-                    <ul class="collapse list-unstyled" id="uielementsmenu">
-                        <li>
-                            <a href="ScheduleNew.html"><i class="fas fa-angle-right"></i> Schedule new</a>
-                        </li>
-                        <li>
-                            <a href="History.html"><i class="fas fa-angle-right"></i> History</a>
-                        </li>
-                      
-                    </ul>
-                </li>
-                <li>
-                    <a href="Messages.html"><i class="fas fa-table"></i> Messages</a>
-                </li>
-                <li>
-                    <a href="Contacts.html"><i class="fas fa-chart-bar"></i> Contacts</a>
-                </li>
-                <li>
-                    <a href="groups.html"><i class="fas fa-icons"></i> Groups</a>
-                </li>
-                
-               
-                <li>
-                    <a href="forgot-password.html"><i class="fas fa-user-lock"></i> Forgot password</a>
-                </li>
-                
-               
-            </ul>
-        </nav> <div id="body" class="active">
-            <!-- navbar navigation component -->
-            <nav class="navbar navbar-expand-lg navbar-white bg-white">
-                <button type="button" id="sidebarCollapse" class="btn btn-light">
-                    <i class="fas fa-bars"></i><span></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav ms-auto">
-                        
-                        <li class="nav-item dropdown">
-                            <div class="nav-dropdown">
-                                <a href="#" id="nav2" class="nav-item nav-link dropdown-toggle text-secondary" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fas fa-user"></i> <span>John Doe</span> <i style="font-size: .8em;" class="fas fa-caret-down"></i>
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-end nav-link-menu">
-                                    <ul class="nav-list">
-                                     
-                                        <li><a href="" class="dropdown-item"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <!-- end of navbar navigation -->
-            <div class="content">
-                <div class="auth-content">
-                    <div class="card" style="padding: 2% 30% 10% 30%;">
-                        <div class="card-body text-center">
-                          
-                            <h6 class="mb-4 text-muted">Login to your account</h6>
-                            <form action="" method="">
-                                <div class="mb-3 text-start">
-                                    <label for="email" class="form-label">Email adress</label>
-                                    <input type="email" class="form-control" placeholder="Enter Email" required>
-                                </div>
-                                <div class="mb-3 text-start">
-                                    <label for="password" class="form-label">Password</label>
-                                    <input type="password" class="form-control" placeholder="Password" required>
-                                </div>
-                                <div class="mb-3 text-start">
-                                    <div class="form-check">
-                                      <input class="form-check-input" name="remember" type="checkbox" value="" id="check1">
-                                      <label class="form-check-label" for="check1">
-                                        Remember me on this device
-                                      </label>
-                                    </div>
-                                </div>
-                                <button class="btn btn-primary shadow-2 mb-4">Login</button>
-                            </form>
-                            <p class="mb-2 text-muted">Forgot password? <a href="forgot-password.html">Reset</a></p>
-                            <p class="mb-0 text-muted">Don't have account yet? <a href="signup.html">Signup</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <nav id="sidebar" class="active">
+        <div class="sidebar-header">
+          <h3
+            class="app-logo"
+            style="color: rgb(85, 85, 87); padding: 4px; padding-left: 6px"
+          >
+            ICQ Bot
+          </h3>
         </div>
-       
+        <ul class="list-unstyled components text-secondary">
+          <li>
+            <a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a>
+          </li>
+          <li>
+            <a
+              href="#uielementsmenu"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle no-caret-down"
+              ><i class="fas fa-layer-group"></i> Schedule Message</a
+            >
+            <ul class="collapse list-unstyled" id="uielementsmenu">
+              <li>
+                <a href="ScheduleNew.html"
+                  ><i class="fas fa-angle-right"></i> Schedule new</a
+                >
+              </li>
+              <li>
+                <a href="History.html"
+                  ><i class="fas fa-angle-right"></i> History</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="Messages.html"><i class="fas fa-table"></i> Messages</a>
+          </li>
+          <li>
+            <a href="Contacts.html"
+              ><i class="fas fa-chart-bar"></i> Contacts</a
+            >
+          </li>
+          <li>
+            <a href="groups.html"><i class="fas fa-icons"></i> Groups</a>
+          </li>
+
+          <li>
+            <a href="forgot-password.html"
+              ><i class="fas fa-user-lock"></i> Forgot password</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div id="body" class="active">
+        <!-- navbar navigation component -->
+        <nav class="navbar navbar-expand-lg navbar-white bg-white">
+          <button type="button" id="sidebarCollapse" class="btn btn-light">
+            <i class="fas fa-bars"></i><span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ms-auto">
+              <li>
+                <div class="nav-dropdown">
+                  <a
+                    href="login.html"
+                    id="nav2"
+                    class="nav-item nav-link dropdown-toggle text-secondary"
+                  >
+                    <button class="btn btn-light" id="hover">
+                      <span id="hover1">Login</span>
+                    </button>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="nav-dropdown">
+                  <a
+                    href="signup.html"
+                    id="nav2"
+                    class="nav-item nav-link dropdown-toggle text-secondary"
+                  >
+                    <button class="btn btn-light" id="hover">
+                      <span id="hover1">Signup</span>
+                    </button>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- end of navbar navigation -->
+        <div class="content">
+          <div class="auth-content">
+            <div class="card" style="padding: 2% 30% 10% 30%">
+              <div class="card-body text-center">
+                <h6 class="mb-4 text-muted">Login to your account</h6>
+                <form action="" method="">
+                  <div class="mb-3 text-start">
+                    <label for="email" class="form-label">Email adress</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter Email"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3 text-start">
+                    <label for="password" class="form-label">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="Password"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3 text-start">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        name="remember"
+                        type="checkbox"
+                        value=""
+                        id="check1"
+                      />
+                      <label class="form-check-label" for="check1">
+                        Remember me on this device
+                      </label>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary shadow-2 mb-4">Login</button>
+                </form>
+                <p class="mb-2 text-muted">
+                  Forgot password? <a href="forgot-password.html">Reset</a>
+                </p>
+                <p class="mb-0 text-muted">
+                  Don't have account yet? <a href="signup.html">Signup</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/chartsjs/Chart.min.js"></script>
     <script src="assets/js/dashboard-charts.js"></script>
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>

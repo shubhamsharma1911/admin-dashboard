@@ -32,6 +32,18 @@
       href="assets/vendor/flagiconcss/css/flag-icon.min.css"
       rel="stylesheet"
     />
+    <style>
+      #login:hover {
+        color: blue;
+      }
+      #hover:hover {
+        background-color: #0d6efd;
+        color: white;
+      }
+      #hover1:hover {
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -95,21 +107,32 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav ms-auto">
-              <button>
-                <li class="nav-item dropdown">
-                  <div class="nav-dropdown">
-                    <a
-                      href="#"
-                      id="nav2"
-                      class="nav-item nav-link dropdown-toggle text-secondary"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <span>Login</span>
-                    </a>
-                  </div>
-                </li>
-              </button>
+              <li>
+                <div class="nav-dropdown">
+                  <a
+                    href="login.html"
+                    id="nav2"
+                    class="nav-item nav-link dropdown-toggle text-secondary"
+                  >
+                    <button class="btn btn-light" id="hover">
+                      <span id="hover1">Login</span>
+                    </button>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="nav-dropdown">
+                  <a
+                    href="signup.html"
+                    id="nav2"
+                    class="nav-item nav-link dropdown-toggle text-secondary"
+                  >
+                    <button class="btn btn-light" id="hover">
+                      <span id="hover1">Signup</span>
+                    </button>
+                  </a>
+                </div>
+              </li>
             </ul>
           </div>
         </nav>
